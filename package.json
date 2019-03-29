@@ -1,0 +1,29 @@
+{
+  "name": "salt-winter19-hackdayw09",
+  "version": "1.0.0",
+  "description": "## Individual hack day!",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltsthlm/salt-winter19-hackdayW09.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saltsthlm/salt-winter19-hackdayW09/issues"
+  },
+  "homepage": "https://github.com/saltsthlm/salt-winter19-hackdayW09#readme",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
+}

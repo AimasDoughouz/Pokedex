@@ -1,0 +1,26 @@
+<img class="logo" src="/logo.svg.png" alt="logo">
+<div class="main-div">
+   <input type="text" placeholder="Search.." id="search-bar" onkeyup="filterFunction()">
+   <select id="pokemon-name" onchange="getPokemonData()">
+      <option selected disabled >Choose a Pokemon</option>
+      {{#each pokeName}}
+      <option>{{ this }}</option>
+      {{/each}}   
+   </select>
+   <div id="card">
+      <img id="image" src="" alt=""> 
+   </div>
+   <div id="description">
+      <h3 id="name"></h3>
+      <p id="type"></p>
+      <p id="abilities"></p>
+      <p id="height"></p>
+      <p id="weight"></p>
+   </div>
+</div>
+
+<script src="/getData.js"></script>
+
+
+
+
