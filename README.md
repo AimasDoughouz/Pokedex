@@ -2,24 +2,29 @@
 
 ## Individual hack day!
 
-Today you will spend the entire day individually to scope, create and finish a small project.
+This project was created at SALT as a "hack day", a full stack project in one day
 
-It is important that you stay on Epicenter when doing your projects. If you're not at the office, slack us your location so that we can pay you a visit!
+## Tech stack:
+- node.js
+- express
+- handlebars
 
-### Instructions:
+## About the project:
+the app has 3 routes: 
+    - Home
+    - About
+    - App
 
-You are supposed to code something on your own. It is OK to find inspiration from sources online as long as the end result is something unique. Making a carbon copy (or a copy with minimal changes) is __not__ OK.
+- When navigating into the App route, you will fetch all the pokemon names from PokeApi(+900 pokemon name) and you will see them when you press the drop down button.
+- There is also a search functionality to search for a specific pokemon.
+- Choosing a pokemon will fetch the image and the related info about that specific pokemon.
 
-Remember that you should scope it in a way that you think you can complete this in one day.
+Screenshots:
 
-You are allowed to use any techniques that we have used so far in this course. If you want to explore something new, talk to us first.
-
-If you want to co-operate in pairs and build one part each of a larger application, come talk to us first. Pair programming is not allowed in this exercise, but we might be able to find a solution if you have a really good idea that can be clearly separated into two parts.
-
-Create a new branch named after yourself and work in this.
-
-__VERY important__: Push your solutions to GitHub on a regular basis. As soon as something works - commit with a descriptive comment and push! Before you go home for the day, push everything you got.
+![Screenshot](1.png)
 
 
-### Presentation
-Everyone will get to present their work in front of part of the class. This will take place at 13:00 on Friday.
+![Screenshot](2.png)
+
+
+![Screenshot](3.png)
